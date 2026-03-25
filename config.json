@@ -1,0 +1,62 @@
+{
+  "digest": {
+    "schedule": [
+      "0 9 * * *",
+      "0 17 * * *"
+    ],
+    "maxItems": 50,
+    "delivery": [
+      "slack",
+      "email"
+    ],
+    "timezone": "Europe/London"
+  },
+  "gmail": {
+    "lookbackHours": 72,
+    "maxThreads": 50,
+    "skipLabels": [
+      "SPAM",
+      "TRASH",
+      "CATEGORY_PROMOTIONS",
+      "CATEGORY_SOCIAL",
+      "CATEGORY_UPDATES",
+      "CATEGORY_FORUMS"
+    ]
+  },
+  "filter": {
+    "ignoredDomains": [
+      "noreply.google.com",
+      "notifications.google.com",
+      "mail.instagram.com",
+      "facebookmail.com",
+      "linkedin.com",
+      "twitter.com",
+      "x.com",
+      "accounts.google.com",
+      "no-reply.accounts.google.com"
+    ],
+    "ignoredSenderPatterns": [
+      "noreply@",
+      "no-reply@",
+      "donotreply@",
+      "mailer-daemon@",
+      "notifications@",
+      "newsletter@",
+      "updates@",
+      "digest@",
+      "support@",
+      "billing@"
+    ],
+    "ignoreNewsletters": true
+  },
+  "gemini": {
+    "model": "",
+    "maxTokens": 4096
+  },
+  "businessContext": {
+    "ownerName": "John Doe",
+    "companyName": "Acme Corp",
+    "industry": "Software / AI",
+    "country": "United States"
+  }
+}
