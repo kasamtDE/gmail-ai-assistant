@@ -8,11 +8,11 @@ AI-powered Gmail monitoring that identifies commercially important threads you h
 
 ## Features
 
-- 🔍 **Smart Filtering** — Skips newsletters, notifications, spam; surfaces business-critical threads
+- 🔍 **Smart Filtering** — Skips mass-marketing, newsletters, spam; surfaces business-critical threads
 - 🧠 **AI Analysis** — Gemini assigns priority, explains risk, suggests actions, drafts replies
-- 📊 **Daily Digest** — Clean summary delivered via Slack and/or email (max 5–7 items)
+- 📊 **Daily Digest** — Clean summary delivered via Slack and/or email (fully configurable max items)
 - 🔄 **Deduplication** — Won't resurface threads you've already seen
-- ⚙️ **Configurable** — Tune filters, schedule, keywords, and delivery channels
+- ⚙️ **Configurable** — Tune filters, schedules, model selection, and delivery channels
 - 🚫 **No auto-sending** — Draft replies are suggestions only
 
 ---
